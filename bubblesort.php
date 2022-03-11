@@ -11,8 +11,7 @@ echo '</pre>';
 
 /* 関数を完成させましょう */
 function bubblesort($num) {
-
-   for($i = 0; $i < count($num); $i++) {
+  for($i = 0; $i < count($num); $i++) {
     for($j = $i; $j < count($num); $j++){
       if($num[$i] > $num[$j]){
          $hoge = $num[$i];
@@ -21,6 +20,6 @@ function bubblesort($num) {
       }
     }
   }
-  return $num;
+return $num;
 }
 
