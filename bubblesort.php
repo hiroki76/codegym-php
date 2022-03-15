@@ -3,10 +3,10 @@ $nums = [100, 5, 2, -10, 8, 10, -1, 15, 1, -100];
 
 // ここにコードを書きましょう
 // ここでbubblesort関数を呼び出します
-$hoge = bubblesort($nums);
+$num = bubblesort($nums);
 
 echo '<pre>';
-print_r($hoge);
+print_r($num);
 echo '</pre>';
 
 /* 関数を完成させましょう */
